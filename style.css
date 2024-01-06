@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    background: white;
+}
+header{
+    padding: 20px 70px;
+    background: rgb(0, 0, 0);
+}
+.menu{
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+}
+.menu .logo1{
+    width: 50px;
+    border-radius: 10px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.menu ul li a{
+    color: white;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all .5s ease-out;
+}
+.menu ul li a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.menu .ini{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.menu #iphones{
+    color: red;
+    border-bottom: 1px solid red; 
+}
+/* main */
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+.main-text img{
+        width: 15rem;
+        height: 100%;
+        margin-bottom: 3vh;
+}
+.main-text h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.main-text p{
+    margin-bottom: 1.5rem;
+}
+.main-text h5{
+    color:rgba(29, 27, 27, 0.582) ;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.main-text .btn{
+    padding: 10px 25px;
+    background: dodgerblue;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    transition: all .5s ease-out;
+}
+.main-text .btn:hover{
+    color: red;
+    background: black;
+}
+.main-img img{
+    transition: all 1s ease;
+    z-index: 100;
+    border-radius: 40px;
+}
+.main-img{
+    width: 300px;
+    height: 600px;
+    transform: rotate(-7deg) ;
+} 
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    clip-path: circle(700px at right 1000px); 
+}
+/* estlizando tela de iphones */
+    section h1{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    span{
+        color: red;
+    }
+    section .phones{
+        display: flex;
+        align-items: center;
+        margin: 20px 70px;
+        border-radius: 20px;
+        justify-content: center;
+        flex-wrap:wrap ;
+        padding-top:30px ; 
+        text-align: center;
+    }
+    section p{
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.699) 3px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .estilo p:hover{
+        color: white;
+        font-size: 14px;
+        padding: 10px 10px;
+        border-radius: 0px 0px 20px 20px;
+        background-color: black;
+    }
+    .phones .estilo{
+        padding-top: 30px;
+        margin: 20px;
+        width: 250px;
+        height:auto ;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.548) 3px 3px 3px ;
+    }
+    .phones img{
+    border-radius: 20px;
+    margin: 10px;
+    height:auto ;
+    box-shadow: rgba(0, 0, 0, 0.548) 3px ;
+    }
+    footer{
+    background-color: black;
+   margin-top: 30px;
+   text-align: center;
+    }
+    footer p{
+        color: white;
+    }
+
+
+
+
+
+
+
